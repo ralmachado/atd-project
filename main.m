@@ -1,4 +1,4 @@
-%% Import experiment data
+%% Ex. 1 - Import experiment data
 condition = exist("data.mat", "file");
 if (condition == 0)
     exp09 = getData('dataset\acc_exp09_user05.txt');
@@ -9,7 +9,7 @@ if (condition == 0)
     exp14 = getData('dataset\acc_exp14_user07.txt');
     exp15 = getData('dataset\acc_exp15_user08.txt');
     exp16 = getData('dataset\acc_exp16_user08.txt');
-    [labels, legend] = getLabels();
+    [labels, activities] = getLabels();
     save data.mat
 else
     load data.mat
@@ -17,8 +17,9 @@ end
 
 %% Ex. 2 - Plot signal, identifying activities
 
-Experiment = input("Experiment no.: ");
-switch Experiment
+% experiment = input("Experiment no.: ");
+experiment = 10;
+switch experiment
     case 9
         data = exp09;
         num = 9;
@@ -47,7 +48,9 @@ switch Experiment
         disp("Invalid Experiment")
         return
 end
+labels = labels(labels(:,1) == num, :);
+plotAcc(data, num, labels, activities, sprintf('Experiment %d', num));
 
-plotAcc(data, num, labels, legend, sprintf('Experiment %d', num));
+%% Ex. 3 - Aplicar DFTs nas atividades identificadas
 
-%% Ex. 3
+windowedDTF(data, labels, activities);
