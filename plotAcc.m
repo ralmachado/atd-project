@@ -12,7 +12,6 @@ function plotAcc(data, num, labels, activities, plotTitle)
     N = size(data,1);
     ylabels = ["ACC\_X", "ACC\_Y", "ACC\_Z"];
     t = linspace(0, Ts*(N-1)/60, N);
-    labels = labels(labels(:,1) == num, :);
     start_t = labels(:,4);
     end_t = labels(:,5);
 
