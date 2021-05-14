@@ -1,3 +1,3 @@
-function [labels, legend]=getLabels()
-    labels = readmatrix('dataset\labels.txt', 'Range', '168:329');
-    legend = readcell('dataset\activity_labels.txt', 'Range', 'C:C');
+function expLabels = getLabels(expNum, labels)
+    expLabels = labels(labels(:,1) == expNum, :);
+end
