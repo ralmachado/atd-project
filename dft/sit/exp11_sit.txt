@@ -1,0 +1,13 @@
+Activity: SIT
+Relevant Frequencies (x axis)
+Relevant Frequencies (y axis)
+Relevant Frequencies (z axis)
+-----------------------------------
+Activity: SIT
+Relevant Frequencies (x axis)
+Freq: 0.00 Hz | Amplitude: 1.01
+Relevant Frequencies (y axis)
+Freq: 0.05 Hz | Amplitude: 0.04
+Relevant Frequencies (z axis)
+Freq: 0.00 Hz | Amplitude: 0.02
+-----------------------------------
