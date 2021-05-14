@@ -1,0 +1,9 @@
+Activity: SIT\_LIE
+Relevant Frequencies (x axis)
+Freq: 0.30 Hz | Amplitude: 0.15
+Relevant Frequencies (y axis)
+Freq: 0.30 Hz | Amplitude: 0.20
+Freq: 0.90 Hz | Amplitude: 0.09
+Relevant Frequencies (z axis)
+Freq: 0.60 Hz | Amplitude: 0.09
+-----------------------------------

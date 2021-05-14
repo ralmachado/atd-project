@@ -1,0 +1,22 @@
+Activity: SIT\_STAND
+Relevant Frequencies (x axis)
+Freq: 0.88 Hz | Amplitude: 0.10
+Relevant Frequencies (y axis)
+Freq: 0.44 Hz | Amplitude: 0.19
+Relevant Frequencies (z axis)
+Freq: 0.44 Hz | Amplitude: 0.19
+-----------------------------------
+Activity: SIT\_STAND
+Relevant Frequencies (x axis)
+Freq: 1.71 Hz | Amplitude: 0.08
+Freq: 3.85 Hz | Amplitude: 0.08
+Freq: 6.84 Hz | Amplitude: 0.04
+Relevant Frequencies (y axis)
+Freq: 0.43 Hz | Amplitude: 0.06
+Freq: 1.28 Hz | Amplitude: 0.06
+Freq: 2.14 Hz | Amplitude: 0.04
+Relevant Frequencies (z axis)
+Freq: 0.43 Hz | Amplitude: 0.04
+Freq: 1.28 Hz | Amplitude: 0.04
+Freq: 2.56 Hz | Amplitude: 0.04
+-----------------------------------
