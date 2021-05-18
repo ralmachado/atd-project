@@ -1,6 +1,6 @@
 Activity: LAY
 Relevant Frequencies (x axis)
-Freq: 0.00 Hz | Amplitude: 0.14
+Freq: 0.00 Hz | Amplitude: 0.15
 Relevant Frequencies (y axis)
 Freq: 0.00 Hz | Amplitude: 0.85
 Relevant Frequencies (z axis)
