@@ -1,0 +1,11 @@
+Activity: STAND\_LIE
+Relevant Frequencies (x axis)
+Freq: 0.18 Hz | Amplitude: 0.20
+Relevant Frequencies (y axis)
+Freq: 0.36 Hz | Amplitude: 0.12
+Freq: 0.89 Hz | Amplitude: 0.05
+Relevant Frequencies (z axis)
+Freq: 0.18 Hz | Amplitude: 0.05
+Freq: 0.54 Hz | Amplitude: 0.05
+Freq: 4.11 Hz | Amplitude: 0.05
+-----------------------------------

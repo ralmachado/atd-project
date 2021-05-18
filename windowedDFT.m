@@ -1,4 +1,4 @@
-function windowedDTF(data, labels, activities, dynamic, showWV, wvI)
+function windowedDFT(data, labels, activities, dynamic, showWV, wvI)
     arguments
         data
         labels
@@ -136,7 +136,8 @@ function windowedDTF(data, labels, activities, dynamic, showWV, wvI)
         
         %% Update the counter
         counters(activityNum) = 1;
-        if (showWV == true) && (i == wvI)
+        %if (showWV == true) && (i == wvI)
+        if (activity == 'W')
             wvtool(hammingWindow, hannWindow, blackmanWindow);
         end
     end

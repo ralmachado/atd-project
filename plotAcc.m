@@ -1,8 +1,7 @@
-function plotAcc(data, num, labels, activities, plotTitle)
+function plotAcc(data, labels, activities, plotTitle)
     % Plotting accelerometer data
     arguments
         data
-        num
         labels
         activities
         plotTitle = 'Accelerometer data'

@@ -1,4 +1,4 @@
-function acc=getData(filename)
+function acc=importData(filename)
     arguments
         filename {mustBeText}
     end
