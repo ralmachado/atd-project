@@ -1,0 +1,35 @@
+Activity: W\_U
+Relevant Frequencies (x axis)
+Freq: 1.83 Hz | Amplitude: 0.28
+Relevant Frequencies (y axis)
+Freq: 0.96 Hz | Amplitude: 0.07
+Freq: 1.83 Hz | Amplitude: 0.18
+Relevant Frequencies (z axis)
+Freq: 0.70 Hz | Amplitude: 0.18
+Freq: 0.87 Hz | Amplitude: 0.18
+Freq: 1.83 Hz | Amplitude: 0.18
+-----------------------------------
+Activity: W\_U
+Relevant Frequencies (x axis)
+Freq: 0.88 Hz | Amplitude: 0.11
+Freq: 1.86 Hz | Amplitude: 0.20
+Freq: 2.12 Hz | Amplitude: 0.09
+Relevant Frequencies (y axis)
+Freq: 0.88 Hz | Amplitude: 0.08
+Freq: 1.06 Hz | Amplitude: 0.05
+Freq: 1.86 Hz | Amplitude: 0.12
+Relevant Frequencies (z axis)
+Freq: 0.88 Hz | Amplitude: 0.12
+Freq: 1.86 Hz | Amplitude: 0.12
+-----------------------------------
+Activity: W\_U
+Relevant Frequencies (x axis)
+Freq: 0.90 Hz | Amplitude: 0.14
+Freq: 1.81 Hz | Amplitude: 0.27
+Relevant Frequencies (y axis)
+Freq: 0.90 Hz | Amplitude: 0.10
+Freq: 1.81 Hz | Amplitude: 0.15
+Relevant Frequencies (z axis)
+Freq: 0.90 Hz | Amplitude: 0.15
+Freq: 1.81 Hz | Amplitude: 0.15
+-----------------------------------
