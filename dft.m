@@ -31,15 +31,15 @@ function dft(data, labels, activities, find, file, showPlot, showFreq, threshold
         end
         
         window = start_t:end_t;
-        X = data(window, 1);
-        Y = data(window, 2);
-        Z = data(window, 3);
+        X = signalTreat(data(window, 1));
+        Y = signalTreat(data(window, 2));
+        Z = signalTreat(data(window, 3));
         
         % Detrend dynamic or transition activities
         if (activityNum < 4) || (activityNum > 6)
-            X = detrend(data(window, 1));
-            Y = detrend(data(window, 2));
-            Z = detrend(data(window, 3));
+            X = detrend(X);
+            Y = detrend(Y);
+            Z = detrend(Z);
         end
         
         dftX = abs(fftshift(fft(X)));

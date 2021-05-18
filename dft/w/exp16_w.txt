@@ -13,7 +13,7 @@ Relevant Frequencies (x axis)
 Freq: 1.92 Hz | Amplitude: 0.27
 Relevant Frequencies (y axis)
 Freq: 0.96 Hz | Amplitude: 0.17
-Freq: 1.92 Hz | Amplitude: 0.09
+Freq: 1.92 Hz | Amplitude: 0.08
 Freq: 4.75 Hz | Amplitude: 0.17
 Relevant Frequencies (z axis)
 Freq: 1.92 Hz | Amplitude: 0.17

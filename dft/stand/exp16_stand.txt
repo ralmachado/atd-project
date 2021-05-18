@@ -3,9 +3,8 @@ Relevant Frequencies (x axis)
 Freq: 0.00 Hz | Amplitude: 2.05
 Relevant Frequencies (y axis)
 Freq: 0.00 Hz | Amplitude: 0.01
-Freq: 0.13 Hz | Amplitude: 0.00
 Relevant Frequencies (z axis)
-Freq: 0.00 Hz | Amplitude: 0.00
+Freq: 0.00 Hz | Amplitude: 0.01
 -----------------------------------
 Activity: STAND
 Relevant Frequencies (x axis)
