@@ -10,7 +10,7 @@ function stft(data)
     nFrame = round(tFrame*fs);
     nOverlap = round(tOverlap*fs);
     
-    h = hamming(Nframe);
+    h = hamming(nFrame);
     
     if(mod(nFrame,2))==0
        f = -fs/2:fs/nFrame:fs/2-fs/nFrame;
@@ -26,7 +26,7 @@ function stft(data)
         fin = horzcat(fin,mFrame(x));
     end
     
-    figure('Name','STFT ',' NumberTitle', 'off');
+    figure('Name','STFT','NumberTitle', 'off');
     waterfall(20*log10(fin))
     figure('Name', 'STFT', 'NumberTitle','off');
     imagesec(20*log10(fin))    

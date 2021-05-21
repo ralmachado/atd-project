@@ -7,7 +7,7 @@ function dft(data, labels, activities, find, file, showPlot, showFreq, threshold
         file = 1
         showPlot = false
         showFreq = true
-        threshold = 0.4
+        threshold = 0.60
     end
     Fs = 50;
     for i = 1:size(labels, 1)
