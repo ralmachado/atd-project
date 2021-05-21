@@ -55,14 +55,15 @@ plotAcc(data, num, expLabels, activities, sprintf('Experiment %d', num));
 windowedDFT(data, expLabels, activities);
 
 %% Ex. 3.2
-suffix = ["w.txt", "wu.txt", "wd.txt", "sit.txt", "stand.txt", "lay.txt", "stand2sit.txt", "sit2stand.txt", "sit2lie.txt", "lie2sit.txt", "stand2lie.txt", "lie2stand.txt"];
-filenames = ["dft\exp09_", "dft\exp10_", "dft\exp11_", "dft\exp12_", "dft\exp13_", "dft\exp14_", "dft\exp15_", "dft\exp16_"];
 experiments = {exp09 exp10 exp11 exp12 exp13 exp14 exp15 exp16};
+
+folders = ["dft\walking\", "dft\w_up\", "dft\w_down\"];
+filenames = ["exp09.txt", "exp10.txt", "exp11.txt", "exp12.txt", "exp13.txt", "exp14.txt", "exp15.txt", "exp16.txt"];
 
 for i=1:length(filenames)
     expLabels = getLabels(8+i, labels);
-    for j = 1:length(suffix)
-        file = fopen(strcat(filenames(i), suffix(j)), "w+");
+    for j = 1:length(folders)
+        file = fopen(strcat(folders(j), filenames(i)), "w+");
         dft(experiments{i}, expLabels, activities, j, file);
         fclose(file);
     end
