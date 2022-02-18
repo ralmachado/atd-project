@@ -1,19 +1,16 @@
-function windowedDFT(data, labels, activities, dynamic, showWV, wvI)
+function [hammingWindow, hannWindow, blackmanWindow] = windowedDFT(data, labels, activities, showWV)
     arguments
         data
         labels
         activities 
-        dynamic = true
         showWV = false
-        wvI = 1
     end
     
     Fs = 50;
-    counters = zeros(1,12);
     for i = 1:size(labels, 1)
         %% Setting up the signal segment
         activityNum = labels(i,3);
-        if (counters(activityNum) == 1) || ((dynamic == true) && (activityNum > 3))
+        if (activityNum ~= 1)
             continue
         end
         activity = string(activities(activityNum));
@@ -36,6 +33,15 @@ function windowedDFT(data, labels, activities, dynamic, showWV, wvI)
         X = data(window, 1);
         Y = data(window, 2);
         Z = data(window, 3);
+        if adftest(X) == 0
+            X = detrend(X);
+        end
+        if adftest(Y) == 0
+            Y = detrend(Y);
+        end
+        if adftest(Z) == 0
+            Z = detrend(Z);
+        end
         dftX = abs(fftshift(fft(X)));
         dftY = abs(fftshift(fft(Y)));
         dftZ = abs(fftshift(fft(Z)));
@@ -135,10 +141,9 @@ function windowedDFT(data, labels, activities, dynamic, showWV, wvI)
         ylabel("Magnitude")
         
         %% Update the counter
-        counters(activityNum) = 1;
-        %if (showWV == true) && (i == wvI)
-        if (activity == 'W')
+        if showWV == true
             wvtool(hammingWindow, hannWindow, blackmanWindow);
         end
+        return
     end
 end
